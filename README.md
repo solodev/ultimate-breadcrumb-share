@@ -70,9 +70,6 @@ The tutorial contains the following basic HTML markup.
 
 All required CSS is contained with ultimate-breadcrumb-share.css
 
-## JS
-
-All required JSis contained with ultimate-breadcrumb-share.js
 
 
 ## External Resources

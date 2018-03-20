@@ -1,85 +1,57 @@
 .breadcrumbs {
-    padding: 24px 0;
-  }
-  .breadcrumbs .fa {
-    font-size: 1.5rem !important;
-  }
-  .breadcrumbs a, 
-  .breadcrumbs span {
-    font-size: 1.2rem;
+  padding: 24px 0;
+  background-color: #f8f8f8;
+}
+.breadcrumbs .fa {
+  font-size: 1.5rem !important;
+}
+.breadcrumbs a, 
+.breadcrumbs span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #091f2f;
+  text-transform: uppercase;
+  text-decoration: none ;
+  margin-right: 15px;
+  position: relative;
+  display: inline-block;
+  line-height: 10.5px;
+}
+.breadcrumbs .fileTrailCurrent {
+  color: #d9262c;
+  border-bottom: 0;
+}
+
+/* ==============================
+  # Social Share
+============================== */
+.breadcrumbs-socials > li {
+    width: 100%;
+    width: inherit;
+    float: left;
+}
+.breadcrumbs-socials .social-share {
     font-weight: 600;
-    color: #091f2f;
-    text-transform: uppercase;
-    text-decoration: none ;
-    margin-right: 30px;
-    position: relative;
-    display: inline-block;
-    line-height: 10.5px;
-  }
+}
+.breadcrumbs-socials a {
+  font-size: 2.5rem;
+  border-bottom: 0px;
+  margin-right: 14px;
+}
+.breadcrumbs-socials a:hover {
+  color: #4a606f;  
+}
+
+li.social-share {
+    padding-right: 20px;
+}
+
+@media (max-width: 991px){ 
+  .breadcrumbs-socials a {
+      margin-right: 6px;
+   }
   .breadcrumbs a:before, 
   .breadcrumbs span:before {
-    content: "/";
-    display: block;
-    font-family: Arial, Verdana;
-    color: #c7c7c7;
-    width: 3px;
-    position: absolute;
-    top: 0;
-    right: -17px;
-    border-bottom: 0;
+    display: none; 
   }
-  .breadcrumbs .fileTrailCurrent:before {
-    display: none;   
-  }
-  .breadcrumbs .fileTrailDividers { 
-    display: none;  
-  }
-  .breadcrumbs .fileTrailCurrent {
-    color: #d9262c;
-    border-bottom: 0;
-  }
-  
-  /* ==============================
-    # Social Share
-  ============================== */
-  .breadcrumbs-socials > li {
-      width: 100%;
-      width: inherit;
-      float: left;
-  }
-  
-  
-  .breadcrumbs-socials > li .social-menu li a:before {
-    display: none;  
-  }
-  .breadcrumbs-socials a:before,
-  .breadcrumbs-socials span:before {
-    display: none;    
-  }
-  .breadcrumbs-socials a {
-    font-size: 2.5rem;
-    border-bottom: 0px;
-    margin-right: 14px;
-  }
-  .breadcrumbs-socials a.emailIcon {
-    margin-right: 0px;  
-  }
-  .breadcrumbs-socials a:hover {
-    color: #4a606f;  
-  }
-  
-  li.social-share {
-      padding-right: 20px;
-  }
-  
-  
-  
-  @media (max-width: 991px){ 
-    .breadcrumbs-socials a {
-        margin-right: 6px;
-     }
-    .breadcrumbs a:before, 
-    .breadcrumbs span:before {
-      display: none; 
-    }
-  }
+}
